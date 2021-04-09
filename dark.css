@@ -1,0 +1,178 @@
+
+@import url('https://gamell.io/roam-dracula/style.css');
+
+:root {
+  	--color-links: var(--color-orange);
+	--color-other-highlights: var(--color-yellow);
+}
+
+.rm-strikethrough {
+  	color: #aaa;
+}
+
+a, a:hover, .rm-page-ref {
+  	color: var(--color-green);
+}
+
+.rm-page-ref.rm-page-ref--link {
+  	color: var(--color-orange);
+}
+
+.rm-zoom-mask {
+	background: #282a36 !important;
+}
+
+#roam-right-sidebar-content {
+	background: #282a36 !important;
+}
+
+#right-sidebar > div {
+	background: #282a36 !important;
+}
+
+.roam-block-container .rm-block-main .rm-block-separator {
+  	min-width: 0;
+}
+
+.rm-page-ref {
+  	font-style: normal;
+}
+
+.rm-block-ref {
+	font-style: normal;
+}
+
+.rm-block-ref.dont-focus-block {
+  	background-color: var(--color-darken-15);
+}
+
+.rm-level3, .rm-heading-level-3>.rm-block__self .rm-block__input {
+  	color: #8be9fd !important;	
+}
+
+.rm-bold>span {
+  	color: #50fa7b !important;
+}
+
+.rm-italics>span {
+	color: #ff79c6 !important; 
+	font-style: normal;
+}
+
+/* Custom data tags */
+span.rm-page-ref[data-tag="Tweet"] {
+    background: #81D5ED !important;
+    color: white !important;
+    padding: 3px 7px;
+    line-height: 2em;
+    font-weight: 500;
+}
+
+span.rm-page-ref[data-tag="Literature Notes"] {
+    background: #9769FF !important;
+    color: white !important;
+    padding: 3px 7px;
+    font-weight: 500;
+    line-height: 2em;
+}
+
+
+span.rm-page-ref[data-tag="日常"] {
+    background: #0DBAC6 !important;
+    color: #fff !important;
+    padding: 3px 8px;
+    line-height: 2em;
+    font-weight: 500;
+}
+
+span.rm-page-ref[data-tag="工作"] {
+    color: #0dbac6 !important;
+    padding: 3px 3px;
+    font-weight: 600;
+    line-height: 1.4em;
+}
+
+span.rm-page-ref[data-tag="阅读"] {
+    color: #FCB815 !important;
+    padding: 3px 3px;
+    font-weight: 700;
+    line-height: 1.4em;
+}
+
+span.rm-page-ref[data-tag="Idea Bank"]:before {
+    content: '✦ '
+}
+
+span.rm-page-ref[data-tag="Illustrated Notes"] {
+    color: #7172FC;
+    padding: 3px 4px;
+    font-weight: 700;
+    line-height: 1.4em;
+}
+
+span.rm-page-ref[data-tag="Garden Notes"] {
+    color: #9DBC13;
+    padding: 3px 4px;
+    font-weight: 700;
+    line-height: 1.4em;
+}
+
+span.rm-page-ref[data-tag="Video Tutorial"] {
+    color: #db3b8d;
+    padding: 3px 4px;
+    line-height: 1.4em;
+    font-weight: 700;
+}
+
+span.rm-page-ref[data-tag="Essay"] {
+    background: #ADCB2A;
+    color: #fff;
+    padding: 3px 7px;
+    line-height: 2em;
+    font-weight: 500;
+}
+
+
+span.rm-page-ref[data-tag="Livestream"] {
+    color: #B979CF;
+    padding: 3px 4px;
+    line-height: 1.4em;
+    font-weight: 700;
+}
+
+span.rm-page-ref[data-tag="Talk"] {
+    background: #7172FC;
+    color: #fff;
+    padding: 3px 7px;
+    line-height: 2em;
+    font-weight: 500;
+}
+
+span.rm-page-ref[data-tag="Waiting"] {
+    background: #F9C866;
+    color: #fff;
+    padding: 3px 7px;
+    line-height: 2em;
+    font-weight: 500;
+}
+
+span.rm-page-ref[data-tag="Researching"] {
+    background: #FF9D66 !important;
+    color: #fff;
+    padding: 3px;
+    font-weight: 500;
+}
+
+span.rm-page-ref[data-tag="Bug"] {
+    background: #FC766F !important;
+    color: #fff !important;
+    padding: 3px;
+    font-weight: 500;
+}
+
+span.rm-page-ref[data-tag="Important"] {
+    background: #EE5F85 !important;
+    color: #fff !important;
+    padding: 3px;
+    font-weight: 500;
+}
